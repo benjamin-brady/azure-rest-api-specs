@@ -24,6 +24,7 @@ options:
     flavor: azure
   "@azure-tools/typespec-go":
     service-dir: "sdk/resourcemanager/containerservicenodecustomization"
+    emitter-output-dir: "{output-dir}/{service-dir}/armcontainerservicenodecustomization"
     package-dir: "armcontainerservicenodecustomization"
     module: "github.com/Azure/azure-sdk-for-go/{service-dir}/{package-dir}"
     fix-const-stuttering: true
